@@ -1,3 +1,3 @@
 function pressed(){
-    alert("Hello");
+    alert("Welcome to Orama Nepal");
 }
