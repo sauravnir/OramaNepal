@@ -461,6 +461,7 @@ readers do not read off random characters that represent icons */
   content: "\f5d1"; }
 
 .fa-archway::before {
+  color:gold;
   content: "\f557"; }
 
 .fa-arrow-down::before {
@@ -1067,6 +1068,7 @@ readers do not read off random characters that represent icons */
   content: "\f0a1"; }
 
 .fa-bullseye::before {
+  color:gold;
   content: "\f140"; }
 
 .fa-burger::before {
@@ -1262,6 +1264,7 @@ readers do not read off random characters that represent icons */
   content: "\f79f"; }
 
 .fa-charging-station::before {
+  color:gold;
   content: "\f5e7"; }
 
 .fa-chart-area::before {
@@ -1562,6 +1565,7 @@ readers do not read off random characters that represent icons */
   content: "\f20a"; }
 
 .fa-cloud::before {
+  color:gold;
   content: "\f0c2"; }
 
 .fa-cloud-arrow-down::before {
@@ -3806,6 +3810,7 @@ readers do not read off random characters that represent icons */
   content: "\e06b"; }
 
 .fa-puzzle-piece::before {
+  color:gold;
   content: "\f12e"; }
 
 .fa-q::before {
@@ -4175,6 +4180,7 @@ readers do not read off random characters that represent icons */
   content: "\f197"; }
 
 .fa-space-shuttle::before {
+  color:gold;
   content: "\f197"; }
 
 .fa-sign-hanging::before {
@@ -4511,6 +4517,7 @@ readers do not read off random characters that represent icons */
   content: "\f12c"; }
 
 .fa-suitcase::before {
+  color:gold;
   content: "\f0f2"; }
 
 .fa-suitcase-medical::before {
