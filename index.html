@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
     <link rel="stylesheet" href="vendor\style.css">
-
+    
   </head>
 
 <body>
@@ -86,13 +86,12 @@ transform: rotate(10deg);">
                       <a href="index.html" class="logo">
                           <img style="width: 150px;" src="assets/images/logo.png" alt="">
                       </a>
-                
                       <ul class="nav text-warning">
                           <li class="scroll-to-section text-warning"><a href="#top" class="active text-warning">Home</a></li>
                           <li class="scroll-to-section"><a href="#services" class=" text-warning">Services</a></li>
                           <li class="scroll-to-section"><a href="#about" class=" text-warning">About</a></li>
                         
-                          <li class="scroll-to-section"><a style="background-color: green; color: white;" href="#">Contact</a></li> 
+                          <li class="scroll-to-section"><a style="background-color: green; color: white;" href="#calculator">Contact</a></li> 
                       </ul>        
                     
                   </nav>
@@ -112,7 +111,11 @@ transform: rotate(10deg);">
               <div class="col-lg-8">
                 <div class="header-text">
                   <h2>We <i class="fa-sharp fa-solid fa-heart fa-beat-fade fa-lg" style="color: #ff0000;"></i> Marketing</h2><h2><span
-                    style="color: rgba(190, 51, 51, 0.722);"
+                    style="background: linear-gradient(82deg, rgba(191,100,39,1) 0%, rgba(255,252,34,1) 100%);
+                    
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    color:transparent"
                    class="txt-rotate"
                    data-period="4000"
                    data-rotate='[ "THINKERS . DESIGNERS . STRATEGISTS"]'
@@ -189,19 +192,23 @@ transform: rotate(10deg);">
 
   <!-- ***** Main Banner Area End ***** -->
 
+  <!-- Icon for services -->
+<!-- <i class="fa-solid fa-chalkboard-user"></i> -->
+
+
   <section class="services" id="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
           <div class="service-item">
-            <i class="fa-solid fa-bullseye "></i>
+            <img  class="img-fluid mb-4" src="assets/icons/design-thinking.png" alt="" style="width:100px;">
             <h4 class="servicetext">Strategists</h4>
             <p class="servicepara">We believe that a perfect strategy targeted towards right audience gives great result.</p>
           </div>
         </div>
         <div class="col-lg-6">
                 <div class="service-item" >  
-                  <i class="fa-solid fa-chalkboard-user"></i>
+                  <img  class="img-fluid mb-4" src="assets/icons/passion.png" alt="" style="width:100px;">
             <h4 class="servicetext">Passionate</h4>
             <p class="servicepara">Our love for social media is enormous and that's what makes us passionate towards our work.</p>
           </div>
@@ -209,50 +216,30 @@ transform: rotate(10deg);">
     
         <div class="col-lg-6">
             <div class="service-item">
-            <i class="fas fa-charging-station"></i>
+              <img  class="img-fluid mb-4" src="assets/icons/search-engine-optimization.png" alt="" style="width:100px;">
             <h4 class="servicetext">Specialist</h4>
             <p class="servicepara">We are a dedicated team of visualizers, copy writers and strategist focused primarily on social media </p>
           </div>
         </div>
         <div class="col-lg-6">
             <div class="service-item">
-                            <i class="fas fa-suitcase"></i>
+              <img  class="img-fluid mb-4" src="assets/icons/research.png" alt="" style="width:100px;">
             <h4 class="servicetext">Researchers</h4>
             <p class="servicepara">We don't just execute social media plans, but constantly research the industry to enhance our services for clients. </p>
           </div>
         </div>
         <div class="col-lg-6">
             <div class="service-item">
-                            <i class="fas fa-archway"></i>
+              <img  class="img-fluid mb-4" src="assets/icons/social-media.png" alt="" style="width:100px;">
             <h4 class="servicetext">Not a 360 degree company</h4>
             <p class="servicepara">We are not 360 degree marketing company, we are focused and expect in social media.</p>
           </div>
         </div>
         <div class="col-lg-6">
 <div class="service-item" >
-              <i class="fas fa-puzzle-piece"></i>
+  <img  class="img-fluid mb-4" src="assets/icons/financial-profit.png" alt="" style="width:100px;">
             <h4 class="servicetext">Deliver Results</h4>
             <p class="servicepara">We set deliverables and achieve it in a qualitative world of social media</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="simple-cta">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5">
-          <h4>Marketing <em>Solutions</em> and <strong>Content</strong>Creations</h4>
-        </div>
-        <div class="col-lg-7">
-          <div class="buttons">
-            <!-- <div class="green-button">
-              <a href="#">Discover More</a>
-            </div> -->
-            <div class="btn btn-warning">
-              <a class="contactbtn" href="#">Contact Us</a>
-            </div>
           </div>
         </div>
       </div>
@@ -282,13 +269,12 @@ transform: rotate(10deg);">
               <a href="about-us.html">Discover More</a>
             </div> -->
             <ul class="aboutui">
-              <li class="aboutli">Cherished brand: Focus on building emotional connections with customers</li><br>
-              <li class="aboutli">Social Media Importance: Emphasize the significance of social media in brand building</li><br>
-              <li class="aboutli">Authenticity: Encourage openness, genuineness, and compassion in social interactions</li><br>
-              <li class="aboutli">Creative Intersection: Combining curious creativity and unique marketing strategies</li><br>
-              <li class="aboutli">Digital Know-How: Expertise in digital technologies and strategies</li><br>
-              <li class="aboutli">Customer Insight: In-depth understanding of customers and their preferences</li><br>
-              <li class="aboutli">Multicultural Team: Diverse team of designers, strategists, engineers, and writers</li><br>
+              <li class="aboutli"><span class="spanli">1. Social Media Importance</span> <br>Emphasize the significance of social media in brand building</li><br>
+              <li class="aboutli"><span class="spanli">2. Authenticity</span> <br>Encourage openness, genuineness, and compassion in social interactions</li><br>
+              <li class="aboutli"><span class="spanli">3. Creative Intersection</span> <br>Combining curious creativity and unique marketing strategies</li><br>
+              <li class="aboutli"><span class="spanli">4. Digital Know-How</span> <br>Expertise in digital technologies and strategies</li><br>
+              <li class="aboutli"><span class="spanli">5. Customer Insight</span> <br>In-depth understanding of customers and their preferences</li><br>
+              <li class="aboutli"><span class="spanli">6. Multicultural Team</span> <br>Diverse team of designers, strategists, engineers, and writers</li><br>
               
             </ul>
           </div>
@@ -297,7 +283,52 @@ transform: rotate(10deg);">
     </div>
   </section>
 
-  <section class="calculator">
+  <section class="services" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="section-heading">
+          
+          <h4>OUR EXPERTISE</h4>
+        </div>
+        <div class="col-lg-6">
+          <div class="service-item">
+            
+            <img class="img-fluid mb-4" src="assets/icons/advertising.png" alt="" style="width: 100px;">
+            <h4 class="servicetext">Social Media Marketing</h4>
+            <p class="servicepara">Facebook <span class="hl">|</span> Instagram <span class="hl">|</span> Tiktok <span class="hl">|</span> Linkedin & More</p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="service-item" >  
+            <!-- <i class="fa-solid fa-chalkboard-user"></i> -->
+            <img  class="img-fluid mb-4" src="assets/icons/layers.png" alt="" style="width:100px;">
+            <h4 class="servicetext">Graphics Designing  </h4>
+            <p class="servicepara">Brand Identity <span class="hl">|</span> Print Design <span class="hl">|</span> Digital Design <span class="hl">|</span> Prepress</p>
+          </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <div class="service-item">
+            <!-- <i class="fas fa-charging-station"></i> -->
+            <img  class="img-fluid mb-4" src="assets/icons/tiktok.png" alt="" style="width:100px;">
+            <h4 class="servicetext">Tiktok & Reels </h4>
+            <p class="servicepara">Photoshoot <span class="hl">|</span> Videoshoot <span class="hl">|</span> Content Creation </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="service-item">
+            <!-- <i class="fas fa-suitcase"></i> -->
+            <img  class="img-fluid mb-4" src="assets/icons/data.png" alt="" style="width:100px;">
+            <h4 class="servicetext">Web Design & Development</h4>
+            <p class="servicepara">Wordpress <span class="hl">|</span> UI/UX Design <span class="hl">|</span> Django <span class="hl">|</span> Laravel <span class="hl">|</span> React & More</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="calculator" id="calculator">
     <div class="container">
       <div class="row">
         <div class="col-lg-7">
@@ -311,18 +342,18 @@ transform: rotate(10deg);">
               <h4>WANT US TO CREATE YOUR NEXT
                 <span style="color: red;"
                    class="txt-rotate"
-                   data-period="4000"
+                   data-period="1000"
                    data-rotate='[ "LEADING", "DOMINATING", "OUTSTANDING" ]'></span> BRAND?
               </h4>
           </div>
           <!-- Text Animation JS -->
           <script>
             var TxtRotate = function(el, toRotate, period) {
-  this.toRotate = toRotate;
-  this.el = el;
-  this.loopNum = 0;
-  this.period = parseInt(period, 10) || 2000;
-  this.txt = '';
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
   this.tick();
   this.isDeleting = false;
 };
@@ -376,49 +407,60 @@ window.onload = function() {
           </script>          
 
 
-          <form id="calculate" action="#" method="get">
+          <form id="calculate" type="submit" action="#" method="post">
             <div class="row">
               <div class="col-lg-6">
                 <fieldset>
                   <label for="name">Your Name</label>
-                  <input type="name" name="name" id="name" placeholder="Eg: Zeus" autocomplete="on" required>
+                  <input type="name" name="name" id="name" placeholder="" autocomplete="on" required>
                 </fieldset>
               </div>
               <div class="col-lg-6">
                 <fieldset>
                   <label for="email">Your Phone Number</label>
-                  
-                  <input type="number" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Eg: 123456789" required value="+977" >
+                  <input type="text" name="email" id="email"  placeholder="" required value="+977" >
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
                   <label for="subject">Your Email</label>
-                  <input type="subject" name="subject" id="subject" placeholder="Eg: xyz@gmail.com" autocomplete="on" required >
+                  <input type="subject" name="subject" id="subject" pattern="[^ @]*@[^ @]*" placeholder="" autocomplete="on" required >
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
                   <label for="subject">Subject</label>
-                  <input type="subject" name="subject" id="subject" placeholder="Eg: Enquiry" autocomplete="on" required>
+                  <input type="subject" name="subject" id="subject" placeholder="" autocomplete="on" required>
                 </fieldset>
               </div>
-              <!-- <div class="col-lg-12">
-                <fieldset>
-                  <label for="chooseOption" class="form-label">Your Reason</label>
-                  <!-- <select name="Category" class="form-select" aria-label="Default select example" id="chooseOption" onchange="this.form.click()">
-                      <option selected>Choose an Option</option>
-                      <option type="checkbox" name="option1" value="Online Banking">Online Banking</option>
-                      <option value="Financial Control">Financial Control</option>
-                      <option value="Yearly Profit">Yearly Profit</option>
-                      <option value="Crypto Investment">Crypto Investment</option>
-                  </select> -->
               </fieldset>
               </div> 
               <div class="col-lg-12">
                 <fieldset>
                   <button  type="submit" id="form-submit" class="orange-button" >Submit Now</button>
                 </fieldset>
+                <script>
+                  const form = document.querySelector("#form")
+                  const submitButton = document.querySelector("#submit")
+                  const scriptURL = 'https://script.google.com/macros/s/AKfycbwG9vCMBREFM4suhSiTdVPFu7-F-6JclKyZGGuKjFS-dqaZT6kKXS6r_15kub3YH2R5yw/exec'
+               
+                  form.addEventListener('submit', e => {
+                    submitButton.disabled = true
+                    e.preventDefault()
+                    let requestBody = new FormData(form)
+                    fetch(scriptURL, { method: 'POST', body: requestBody})
+                      .then(response => {
+                         alert('Success!', response)
+                         submitButton.disabled = false
+                        })
+                      .catch(error => {
+                      alert('Error!', error.message)
+                        submitButton.disabled = false
+               
+                      }
+                      )
+                  })
+               </script>
               </div>
             </div>
           </form>
@@ -433,7 +475,7 @@ window.onload = function() {
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading">
             <h6 style="color: gold;">Check this out</h6>
-            <h4 style="color: white; text-transform: capitalize;">WHAT OUR CLIENTS SAY ABOUT US</h4>
+            <h4 style="color: white; text-transform: capitalize;">WHAT OUR CLIENTS SAY ABOUT US <i class="fa"></i></h4>
           </div>
         </div>
         <div class="col-lg-10 offset-lg-1">
@@ -507,14 +549,16 @@ window.onload = function() {
       </div>
     </div>
   </section>
+  <!-- <hr style="height: 2px; color: gold; width: 100%; opacity: 0.8;"> -->
 <!-- Map -->
   <section class="map mb-3">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="section-heading">
+         
+          <!-- <div class="section-heading">
             <h4 style="color: gold;">WHERE WE ARE LOCATED AT</h4>
-          </div>
+          </div> -->
           <div id="map">
             <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Golfutar&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="450px" frameborder="0" style="border:0; border-radius: 5px; position: relative; z-index: 2;" allowfullscreen=""></iframe>
           </div>

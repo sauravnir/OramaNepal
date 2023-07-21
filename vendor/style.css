@@ -47,11 +47,24 @@ body{
 
 .aboutui{
     list-style-type: disc;
-  padding-left: 20px;
+  padding-left: 0;
   color: white;
 }
 
 .aboutli{
     margin-bottom: 10px;
     color: white;
+    font-weight: 300;
+}
+
+.spanli{
+    color: rgb(155, 4, 35);
+     text-align: justify; 
+     font-weight:bold;
+      font-size: 500;
+}
+
+.hl{
+    color:red;
+    font-weight: 500;
 }

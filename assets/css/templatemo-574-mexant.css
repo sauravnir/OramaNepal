@@ -186,7 +186,7 @@ body {
 }
 
 section {
-  margin-top: 120px;
+  margin-top: 200px;
 }
 
 .section-heading {
@@ -200,7 +200,7 @@ section {
 .section-heading h6 {
   font-size: 20px;
   text-transform: uppercase;
-  color: #ffd700;
+  color: gold;
   font-weight: 700;
 }
 
@@ -211,6 +211,7 @@ section {
   font-weight: 700;
   text-transform: capitalize;
   color: #ffffff;
+  
 }
 
 .section-heading p {
@@ -748,7 +749,7 @@ banner
   z-index: 2;
   font-size: 40px;
   color: #fff;
-  font-weight: 200;
+  font-weight: bold;
   opacity: 1;
   visibility: visible;
   line-height: 70px;
@@ -804,7 +805,7 @@ services
 */ 
 
 section.services {
-  margin-top: 90px;
+  margin-top: 200px;
 }
 
 .services .service-item {
@@ -900,7 +901,7 @@ about us
 */
 
 section.about-us {
-  margin-top: 90px;
+  margin-top: 300px;
 }
 
 section.about-us .section-heading {
@@ -1013,7 +1014,7 @@ calculator
 */
 
 section.calculator {
-  margin-top: 150px;
+  margin-top: 300px;
   background-image: url(../images/black.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -1061,8 +1062,8 @@ section.calculator .section-heading h4 {
 
 #calculate button.orange-button {
   font-size: 14px;
-  color: #000000;
-  background-color: #ffd700;
+  color: #ffffff;
+  background-color: green;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1074,7 +1075,7 @@ section.calculator .section-heading h4 {
 }
 
 #calculate button.orange-button:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 
@@ -1086,7 +1087,7 @@ testimonials
 */
 
 section.testimonials {
-  margin-top: 90px;
+  margin-top: 300px;
 }
 
 section.testimonials .section-heading {
@@ -1590,12 +1591,12 @@ section.map .info-item h4 {
 section.map .info-item a {
   font-size: 15px;
   font-weight: 600;
-  color: #000000;
+  color: gold;
   transition: all 0.3s;
 }
 
 section.map .info-item a:hover {
-  color: #ff511a;
+  color: gold;
 }
 
 #contact input {
