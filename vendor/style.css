@@ -1,3 +1,22 @@
+body{
+    background-color: black;
+    margin:0px;
+    padding: 0px;
+}
+
+/* .mainRunner{
+    border: 1px solid #000;
+} */
+
+/* .sticky{
+    position: sticky;
+    top: 0;
+   width: 300px;
+   height: 300px;
+   border: 1px solid #f00;
+     /* position: relative; */
+  /* z-index: 2; */
+/* } */ */
 .servicetext{
     color: white;
 }
@@ -11,9 +30,28 @@
 }
 
 .contactbtn{
-    color: black;
+    color: white;
     width: auto;
     height: auto;
     flex-direction:column;
 }
 
+.contactbtn :hover {
+    color: black;
+}
+
+.sticky{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutui{
+    list-style-type: disc;
+  padding-left: 20px;
+  color: white;
+}
+
+.aboutli{
+    margin-bottom: 10px;
+    color: white;
+}

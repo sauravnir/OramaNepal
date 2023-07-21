@@ -1246,6 +1246,7 @@ readers do not read off random characters that represent icons */
   content: "\f6c0"; }
 
 .fa-chalkboard::before {
+  color: gold;
   content: "\f51b"; }
 
 .fa-blackboard::before {
