@@ -6,3 +6,14 @@
     color: white;
 }
 
+.simple-cta{
+    background-color: gold;
+}
+
+.contactbtn{
+    color: black;
+    width: auto;
+    height: auto;
+    flex-direction:column;
+}
+

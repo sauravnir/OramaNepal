@@ -198,9 +198,9 @@ section {
 }
 
 .section-heading h6 {
-  font-size: 16px;
+  font-size: 20px;
   text-transform: uppercase;
-  color: #ff511a;
+  color: #ffd700;
   font-weight: 700;
 }
 
@@ -1011,7 +1011,7 @@ calculator
 
 section.calculator {
   margin-top: 150px;
-  background-image: url(../images/calculator-bg.jpg);
+  background-image: url(../images/black.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1034,20 +1034,22 @@ section.calculator .section-heading h4 {
 #calculate label {
   color: #fff;
   font-size: 14px;
-  margin-bottom: 5px;
+  margin-bottom: 5px; 
 }
 
 #calculate input,
 #calculate select {
-  background-color: rgba(121,134,151, 0.7);
+  background-color: rgb(255, 255, 255);
   border: none;
   border-radius: 5px;
   width: 100%;
   height: 42px;
-  color: #fff;
+  color: #000000;
   font-size: 14px;
   margin-bottom: 30px;
   outline: none;
+  font-weight: bolder;
+ 
 }
 
 #calculate select {
@@ -1056,8 +1058,8 @@ section.calculator .section-heading h4 {
 
 #calculate button.orange-button {
   font-size: 14px;
-  color: #fff;
-  background-color: #ff511a;
+  color: #000000;
+  background-color: #ffd700;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1089,19 +1091,20 @@ section.testimonials .section-heading {
 }
 
 .testimonials .item {
-  border-radius: 15px;
+  border-radius: 30px;
   padding: 50px 320px 50px 50px;
-  background-color: #fff;
+  background-color: #000000;
   position: relative;
   overflow: hidden;
   margin: 15px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 20px 30px 2px hsla(52, 98%, 47%, 0.968);
   padding-top: 35px;
+  animation: glowing 3s infinite;
 }
 
 .testimonials .item i {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   background-color: #43ba7f;
   display: inline-block;
   text-align: center;
@@ -1110,11 +1113,35 @@ section.testimonials .section-heading {
   font-size: 44px;
   border-radius: 5px;
   margin-bottom: 30px;
+  
 }
 
+@keyframes glowing{
+  0% {
+    box-shadow: 0 0 5px #ffd700;
+  }
+
+  25%{
+    box-shadow: 0 0 15px #ffd700;
+  }
+
+  50% {
+    box-shadow: 0 0 20px #ffd700, 0 0 30px #ffd700;
+  }
+
+  75%{
+    box-shadow: 0 0 20px #ffd700, 0 0 30px #ffd700; ;
+  }
+  100% {
+    box-shadow: 0 0 5px #ffd700;
+  }
+}
+
+
 .testimonials .item p {
+  color:rgb(255, 255, 255);
   font-size: 16px;
-  font-style: italic;
+  padding-right: 15px;
 }
 
 .testimonials .item h4 {
@@ -1122,6 +1149,7 @@ section.testimonials .section-heading {
   font-size: 22px;
   font-weight: 600;
   position: relative;
+  color: #ffffff;
 }
 
 .testimonials .item span {
@@ -1129,7 +1157,7 @@ section.testimonials .section-heading {
   display: block;
   font-size: 15px;
   font-weight: 600;
-  color: #43ba7f;
+  color: #ef0000;
 }
 
 .testimonials .item img {
@@ -1149,13 +1177,13 @@ section.testimonials .section-heading {
 .testimonials .owl-dots .owl-dot {
   width: 10px;
   height: 10px;
-  background-color: #ffa88c;
+  background-color: #ffffff;
   border-radius: 50%;
   margin: 0px 4px;
 }
 
 .testimonials .owl-dots .active {
-  background-color: #ff511a;
+  background-color: #ffd700;
 }
 
 
@@ -1529,7 +1557,7 @@ section.map .info-item {
   text-align: center;
   padding: 40px 30px;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   margin-top: -60px;
   margin-left: 15px;
@@ -1537,7 +1565,7 @@ section.map .info-item {
   position: relative;
   z-index: 2;
   transition: all .5s;
-}
+ }
 
 section.map .info-item:hover {
   margin-top: -70px;
@@ -1545,13 +1573,13 @@ section.map .info-item:hover {
 
 section.map .info-item i {
   font-size: 36px;
-  color: #43ba7f;
+  color: #000000;
   margin-bottom: 25px;
 }
 
 section.map .info-item h4 {
   font-size: 18px;
-  color: #212741;
+  color: #000000;
   font-weight: 600;
   margin-bottom: 12px;
 }
@@ -1559,7 +1587,7 @@ section.map .info-item h4 {
 section.map .info-item a {
   font-size: 15px;
   font-weight: 600;
-  color: #43ba7f;
+  color: #000000;
   transition: all 0.3s;
 }
 

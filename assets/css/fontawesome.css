@@ -3823,6 +3823,7 @@ readers do not read off random characters that represent icons */
   content: "\3f"; }
 
 .fa-quote-left::before {
+  color: gold;
   content: "\f10d"; }
 
 .fa-quote-left-alt::before {

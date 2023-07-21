@@ -79,6 +79,8 @@
   .owl-carousel.owl-refresh .owl-item {
     visibility: hidden; }
   .owl-carousel.owl-drag .owl-item {
+    width: auto;
+    height: auto;
     -ms-touch-action: pan-y;
         touch-action: pan-y;
     -webkit-user-select: none;
@@ -102,7 +104,10 @@
  */
 .owl-carousel .animated {
   animation-duration: 1000ms;
-  animation-fill-mode: both; }
+  animation-fill-mode: both;
+  box-shadow: 10px 10px 20px rgb(213, 173, 15);
+  }
+  
 
 .owl-carousel .owl-animated-in {
   z-index: 0; }
