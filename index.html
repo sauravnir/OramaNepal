@@ -10,8 +10,10 @@
     <link rel="icon" href="assets/images/titleicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <link href="https://www.fontspace.com/antique-collection-dem-font-f100101" rel="stylesheet" type="text/css">
     <title>Orama Nepal</title>
     <!-- Sweet Alert -->  
+    
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -267,7 +269,7 @@ transform: rotate(10deg);">
         </div>
         <div class="col-lg-4">
           <div class="right-content">
-            <h4 style="text-transform: uppercase;">When creativity collides with Strategy , Technology and Deep Insight...</h4>
+            <h4 style="text-transform: uppercase;">When creativity collides with <span class="aboutspan">Strategy</span>, <span class="aboutspan">Technology</span> and <span class="aboutspan">Deep Insight</span>...</h4>
             <!-- <p>Building a cherished brand is not just about the item or administration a business moves, however the associations it makes with the general population who love and trust it. At Orama Nepal ,
               we trust there is no place this is more critical today than on social media. Our suite of profound tuning in and investigation, social administration, client care and promotion arrangements empower associations and brands of all sizes to be increasingly open, genuine, and compassionate on social and make the sort of genuine association with their purchasers that drives their organizations forward.</p>
             <p>Orama Nepal is your full-service creative (advertising and) digital experience agency, born at the intersection where curious creativity intersects with unique marketing strategies, digital know-how, and in-depth customer insight. We are multicultural team of designers, strategists, engineers and writers whose expertise and designs has been showcased not only inside the countries but also among different international boundaries.</b> to redistribute the template ZIP file on any other template websites.</p> -->
@@ -412,53 +414,60 @@ window.onload = function() {
   document.body.appendChild(css);
 };
           </script>
-          <form id="calculate" method="post">
+          <form id="calculate" action="" method="post">
             <div class="row">
               <div class="col-lg-6">
                 <fieldset>
                   <label for="name">Your Name</label>
-                  <input type="name" name="name" id="name" placeholder="" autocomplete="on" required>
+                  <input type="name" name="name" id="name" placeholder="" autocomplete="on" >
                 </fieldset>
               </div>
               <div class="col-lg-6">
                 <fieldset>
                   <label for="email">Your Phone Number</label>
-                  <input type="text" name="email" id="email"  placeholder="" required value="+977" >
+                  <input type="text" name="email" id="number"  placeholder=""  value="+977" >
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
                   <label for="subject">Your Email</label>
-                  <input type="subject" name="subject" id="subject" pattern="[^ @]*@[^ @]*" placeholder="" autocomplete="on" required >
+                  <input type="subject" name="subject" id="email" pattern="[^ @]*@[^ @]*" placeholder="" autocomplete="on"  >
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
                   <label for="subject">Subject</label>
-                  <input type="subject" name="subject" id="subject" placeholder="" autocomplete="on" required>
+                  <input type="subject" name="subject" id="subject" placeholder="" autocomplete="on" >
                 </fieldset>
               </div>
-              </fieldset>
+              </fieldset> 
               </div> 
               <div class="col-lg-12">
                 <fieldset>
-                  <button  type="submit" id="form-submit" class="orange-button" onclick="SubForm()" >Submit Now</button>
+                  <button type="submit" id="form-submit" class="orange-button">Submit Now</button>
                 </fieldset>
-                <script>
-                  function SubForm (){
-    $.ajax({
-        url:'https://api.apispreadsheets.com/data/Iq0T70jfMglaTLRq/',
-        type:'post',
-        data:$("#calculate").serializeArray(),
-        success: function(){
-          alert("Form Data Submitted :)")
-        },
-        error: function(){
-          alert("There was an error :(")
-        }
-    });
-}
-               </script>
+                
+
+
+<!-- //                  document.querySelector(".orange-button").addEventListener("click", function() {
+
+//     Swal.fire({
+//     title: "<h4 style='color:gold'> <span style='color:green'>Saved!</span> We will contact you as soon as possible !</h4>",
+//     // text: "This alert will disappear after 3 seconds.",
+//     position: "center",
+//     // backdrop: "linear-gradient(yellow, orange)",
+//     background: "black",
+//     allowOutsideClick: false,
+//     allowEscapeKey: false,
+//     allowEnterKey: false,
+//     showConfirmButton: false,
+//     showCancelButton: false,
+//     timer: 1500
+//   });
+//   } -->
+<!-- // ); -->
+
+              
               </div>
             </div>
           </form>

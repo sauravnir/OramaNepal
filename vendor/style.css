@@ -79,4 +79,14 @@ body{
     background-color: white;
 }
 
-
+@font-face {
+    font-family: "Antiquecollectiondem";
+    src: url("https://www.fontspace.com/antique-collection-dem-font-f100101");
+}
+.aboutspan{
+    font-family: Antiquecollectionde;
+    color: gold;  
+    font-size: 1000;  
+    /* background-clip: text; */
+    /* color: transparent; */
+}
