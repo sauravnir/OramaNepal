@@ -319,8 +319,8 @@ header
 
 .header-area .main-nav .nav li:last-child a {
   font-size: 14px;
-  color: #fff;
-  background-color: #43ba7f;
+  color: #000000;
+  background-color: #ffffff;
   padding: 10px 20px !important;
   display: inline-block;
   border-radius: 5px;
@@ -1062,8 +1062,8 @@ section.calculator .section-heading h4 {
 
 #calculate button.orange-button {
   font-size: 14px;
-  color: #ffffff;
-  background-color: green;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 5px;
@@ -1075,7 +1075,8 @@ section.calculator .section-heading h4 {
 }
 
 #calculate button.orange-button:hover {
-  opacity: 0.8;
+  background: linear-gradient(82deg, rgba(191,100,39,1) 0%, rgba(255,252,34,1) 100%);
+  color: white;
 }
 
 
@@ -1095,7 +1096,7 @@ section.testimonials .section-heading {
 }
 
 .testimonials .item {
-  border-radius: 30px;
+  /* border-radius: 30px; */
   padding: 50px 320px 50px 50px;
   background-color: #000000;
   position: relative;
@@ -1172,6 +1173,7 @@ section.testimonials .section-heading {
   max-width: 300px;
   border-radius: 5px;
 }
+
 
 .testimonials .owl-dots {
   text-align: center;
@@ -1276,6 +1278,8 @@ about us page
 */
 
 section.top-section .left-image img {
+  width: 100%;
+  height: auto;
   border-radius: 10px;
 }
 
